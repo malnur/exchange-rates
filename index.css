@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #f2f3f4;
+}
+
+h1 {
+  color: #bdc3c7;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.wrapper {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.content {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 52px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 1rem;
+}
+
+.icon span {
+  padding: 3px;
+  font-size: 1.2rem;
+}
+
+.icon span {
+  background-color: #73c6b6;
+}
+
+.icon span:nth-child(1),
+.icon span:nth-child(4) {
+  background-color: #16a085;
+}
+
+section {
+  margin-top: 1rem;
+}
+
+.head {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #48c9b0;
+  border-radius: 3px;
+}
+
+.head span {
+  margin-right: 0.5rem;
+}
+
+#ui {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ui p {
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  width: 10rem;
+  text-align: center;
+  border: 1px solid #bdc3c7;
+  border-radius: 3px;
+  background-color: #f2f3f4;
+  outline-style: none;
+}
+
+input:focus,
+input:hover {
+  background-color: #fafafa;
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  width: 16rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 3px;
+  background-color: #f2f3f4;
+  outline-style: none;
+}
+
+button {
+  margin-top: 1.4rem;
+  padding: 6px 4px;
+  border: 1px solid #bdc3c7;
+  border-radius: 3px;
+  background-color: #f2f3f4;
+  outline-style: none;
+}
+
+#result {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  color: #48c9b0;
+}
+
+#equal {
+  margin: 0 0.5rem;
+  color: #7dcea0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  transform: scaleX(1.4);
+}
+
+#updated {
+  text-align: right;
+}
+
+#rates {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.currency {
+  font-size: 1.3rem;
+}
+
+.rate {
+  padding: 0 5rem;
+  text-align: center;
+}
+
+.rate p:nth-child(2) {
+  font-size: 0.8rem;
+}

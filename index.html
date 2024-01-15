@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="content">
+          <div class="icon">
+            <span class="material-symbols-outlined">currency_pound</span>
+            <span class="material-symbols-outlined">euro_symbol</span>
+            <span class="material-symbols-outlined">attach_money</span
+            ><span class="material-symbols-outlined"> trending_up </span>
+          </div>
+          <h1>Echange Rates</h1>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrapper">
+      <section>
+        <div class="head">
+          <span class="material-symbols-outlined">currency_exchange</span>
+          <h2>Currency Exchange Converter</h2>
+        </div>
+        <div id="ui">
+          <div>
+            <p>Amount:</p>
+            <input type="text" />
+          </div>
+          <div>
+            <p>From:</p>
+            <select name="" id="">
+              <option value="">ABC</option>
+              <option value="">DEF</option>
+              <option value="">GHI</option>
+            </select>
+          </div>
+          <div>
+            <button>&lt;&gt;</button>
+          </div>
+          <div>
+            <p>To:</p>
+            <select name="" id="">
+              <option value="">ABC</option>
+              <option value="">DEF</option>
+              <option value="">GHI</option>
+            </select>
+          </div>
+        </div>
+        <div id="result">
+          <span>1 US Dollar</span>
+          <span id="equal">=</span>
+          <span>0.9119 Euros</span>
+        </div>
+        <div id="updated">
+          <p>Last update 2024-1-15 6:45 AM UTC</p>
+        </div>
+      </section>
+      <section>
+        <div class="head">
+          <span class="material-symbols-outlined"> data_exploration </span>
+          <h2>Exchange Rates Today</h2>
+        </div>
+        <div id="rates">
+          <div class="row">
+            <div class="currency">Australian Dollar</div>
+            <div class="rate">
+              <p>1.4955</p>
+              <p>USD / AUD</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="currency">British Pound</div>
+            <div class="rate">
+              <p>0.7840</p>
+              <p>USD / GBP</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
