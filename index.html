@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <link rel="stylesheet" href="index.css" />
+    <script defer src="app.js"></script>
   </head>
   <body>
     <header>
@@ -39,59 +40,31 @@
         </div>
         <div id="ui">
           <div>
-            <p>Amount:</p>
-            <input type="text" />
+            <label for="amount">Amount:</label>
+            <input id="amount" type="text" />
           </div>
           <div>
-            <p>From:</p>
-            <select name="" id="">
-              <option value="">ABC</option>
-              <option value="">DEF</option>
-              <option value="">GHI</option>
-            </select>
+            <label for="from-currency">From:</label>
+            <select id="from-currency"></select>
           </div>
           <div>
-            <button>&lt;&gt;</button>
-          </div>
-          <div>
-            <p>To:</p>
-            <select name="" id="">
-              <option value="">ABC</option>
-              <option value="">DEF</option>
-              <option value="">GHI</option>
-            </select>
+            <label for="to-currency">To:</label>
+            <select id="to-currency"></select>
           </div>
         </div>
         <div id="result">
-          <span>1 US Dollar</span>
+          <span id="from-result">1 US Dollar</span>
           <span id="equal">=</span>
-          <span>0.9119 Euros</span>
+          <span id="to-result">0.9119 Euros</span>
         </div>
-        <div id="updated">
-          <p>Last update 2024-1-15 6:45 AM UTC</p>
-        </div>
+        <div id="error">Some error text here</div>
       </section>
       <section>
         <div class="head">
-          <span class="material-symbols-outlined"> data_exploration </span>
+          <span class="material-symbols-outlined">data_exploration</span>
           <h2>Exchange Rates Today</h2>
         </div>
-        <div id="rates">
-          <div class="row">
-            <div class="currency">Australian Dollar</div>
-            <div class="rate">
-              <p>1.4955</p>
-              <p>USD / AUD</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="currency">British Pound</div>
-            <div class="rate">
-              <p>0.7840</p>
-              <p>USD / GBP</p>
-            </div>
-          </div>
-        </div>
+        <div id="rates"></div>
       </section>
     </main>
   </body>

@@ -30,6 +30,7 @@ h2 {
 .content {
   height: 4rem;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -56,7 +57,7 @@ h2 {
 }
 
 section {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .head {
@@ -75,17 +76,22 @@ section {
 #ui {
   padding: 1rem 0;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
 }
 
-#ui p {
+#ui > div {
+  margin-top: 1rem;
+}
+
+#ui label {
+  display: block;
   margin-bottom: 0.5rem;
 }
 
 input {
   padding: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   width: 10rem;
   text-align: center;
   border: 1px solid #bdc3c7;
@@ -101,8 +107,7 @@ input:hover {
 
 select {
   padding: 0.5rem;
-  font-size: 1.8rem;
-  width: 16rem;
+  font-size: 1.2rem;
   border: 1px solid #bdc3c7;
   border-radius: 3px;
   background-color: #f2f3f4;
@@ -125,16 +130,18 @@ button {
   color: #48c9b0;
 }
 
+#error {
+  display: none;
+  font-size: 1.8rem;
+  color: #c0392b;
+}
+
 #equal {
   margin: 0 0.5rem;
   color: #7dcea0;
   font-size: 2.5rem;
   font-weight: 800;
   transform: scaleX(1.4);
-}
-
-#updated {
-  text-align: right;
 }
 
 #rates {
